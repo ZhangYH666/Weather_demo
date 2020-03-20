@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150sp">
+
+        <TextView
+            android:id="@+id/w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:text="纬度:"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_weidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/w"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/w"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="---"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/j"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/w"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="经度:"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_jingdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/j"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/j"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="---"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/gj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/j"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="国家:"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_guojia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/gj"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/gj"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="---"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/jd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gj"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:text="地址:"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_jiedao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/jd"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/jd"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:maxEms="13"
+            android:maxLines="2"
+            android:text="---"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_weidu"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_sheng"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="省:"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_sheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_weidu"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="---"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_shi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_jingdu"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="---"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_jingdu"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_shi"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="市:"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tv_qu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_guojia"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="---"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_F5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_qu"
+            android:layout_alignBaseline="@+id/tv_jiedao"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="刷新"
+            android:textColor="#6495ED"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_guojia"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_qu"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:text="区:"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:divider="@null"
+        android:padding="10dp" />
+
+</LinearLayout>
